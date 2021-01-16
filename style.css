@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dbdbdb;
+    font-family: 'Oxygen', sans-serif;
+
+}
+#social{
+    background-color: black;
+    color: white;
+    height: 55px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+
+}
+#başlık{
+    float: left;
+    letter-spacing: 15px;
+}
+#social>i{
+    float: right;
+    letter-spacing: 8px;
+}
+#container{
+    width: 80%;
+    margin: auto;
+    height: auto;
+
+
+}
+header{
+    margin-bottom: 5px;
+
+}
+section{
+width: 100%;
+height: auto;
+
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+box-shadow: 0 2px 8px 2px rgba (20, 23, 28, .15);
+margin-top: 15px;
+overflow: auto;
+}
+.menu{
+    list-style: none;
+    margin: 0;padding: 0;
+}
+.menu li{
+    float: left;
+    margin: 10px;
+}
+.menu a{
+    text-decoration:none;
+    color:rgb(245, 245, 245);
+    font-weight:bold;
+    border:1px solid rgb(200, 198, 201);
+    border-top:5px solid rgb(146, 144, 146);
+    background:rgb(197, 194, 197);
+    width:150px;
+    display:block;
+    line-height:25px;
+    padding:5px;
+    text-align:center;
+}
+.menu a:hover
+			{
+				margin-top:5px;
+				border-top:5px solid rgb(66, 66, 66);
+                color:rgb(61, 60, 60);
+                
+            }
+.nav{
+    width: 20½;
+}
+.main{
+    
+}
+.menu {
+    float:
+}
+.icerik{
+    height: 750px;
+    width: 500px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    background-color: rgb(212, 212, 207);
+    box-shadow: 0 2px 8px 2px rgba (20, 23, 28, .15);
+}
+.rsm {
+    border-radius: 10px;
+    transition: opacity 0.6s;
+}
+.rsm:hover{
+    opacity: 0.6;
+}
+.dvm:link{
+    display: block;
+    width: 150px;
+    height: 45px;
+    background-color: rgb(9, 141, 250);
+    text-decoration:none;
+    color:white;
+    padding: 10px 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.dvm:hover{
+    opacity: 0.9;
+}
+
+
